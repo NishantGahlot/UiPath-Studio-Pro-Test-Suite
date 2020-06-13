@@ -1,0 +1,116 @@
+{
+  "name": "Test Suite Demo",
+  "description": "Test Automation Project",
+  "main": "Main.xaml",
+  "dependencies": {
+    "UiPath.Excel.Activities": "[2.8.5]",
+    "UiPath.System.Activities": "[20.4.0]",
+    "UiPath.Testing.Activities": "[1.0.0]",
+    "UiPath.UIAutomation.Activities": "[20.4.1]"
+  },
+  "webServices": [],
+  "schemaVersion": "4.0",
+  "studioVersion": "20.4.1.0",
+  "projectVersion": "1.0.45775520",
+  "runtimeOptions": {
+    "autoDispose": false,
+    "isPausable": true,
+    "requiresUserInteraction": true,
+    "supportsPersistence": false,
+    "excludedLoggedData": [
+      "Private:*",
+      "*password*"
+    ],
+    "executionType": "Workflow"
+  },
+  "designOptions": {
+    "projectProfile": "Developement",
+    "outputType": "Tests",
+    "libraryOptions": {
+      "includeOriginalXaml": false,
+      "privateWorkflows": []
+    },
+    "fileInfoCollection": [
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "c6426c88-9a21-4fac-8efe-d7ee73d7e700",
+        "fileName": "TestCase.xaml"
+      },
+      {
+        "editingStatus": "Publishable",
+        "testCaseId": "2d51b975-7f81-4127-ac4f-6a30e023443d",
+        "fileName": "Functional Testing\\Registration Successfull.xaml"
+      },
+      {
+        "editingStatus": "Publishable",
+        "testCaseId": "379f3cb6-bc45-4be3-95c8-2dc641f870e2",
+        "fileName": "Functional Testing\\Registration Failed - Passwords Mismatch.xaml"
+      },
+      {
+        "editingStatus": "Publishable",
+        "testCaseId": "f560f25f-e2b4-469a-981d-ffbbcb9fa52d",
+        "fileName": "Functional Testing\\Registration Failed - Terms of Use Not Checked.xaml"
+      },
+      {
+        "editingStatus": "Publishable",
+        "testCaseId": "884fd1a5-0d49-4640-a5bb-a0d8aeb773fe",
+        "fileName": "Functional Testing\\Registration Failed - User Already Registered.xaml"
+      },
+      {
+        "editingStatus": "Publishable",
+        "testCaseId": "77050215-6e33-4eb5-8e84-aab373e2f069",
+        "fileName": "Regression Testing\\Registration Successfull.xaml"
+      },
+      {
+        "editingStatus": "Publishable",
+        "testCaseId": "2dfad34d-7acd-41fe-9b5d-e3e80dc02bfe",
+        "fileName": "Regression Testing\\Registration Failed.xaml"
+      },
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "2ce240be-fa93-446a-9b1e-47157edc9cbc",
+        "dataVariationFilePath": ".variations\\Registration Data_Sheet1.json",
+        "fileName": "Data Driven Test Cases\\Registration.xaml"
+      }
+    ]
+  },
+  "expressionLanguage": "VisualBasic",
+  "entryPoints": [
+    {
+      "filePath": "Functional Testing\\Registration Successfull.xaml",
+      "uniqueId": "2d51b975-7f81-4127-ac4f-6a30e023443d",
+      "input": [],
+      "output": []
+    },
+    {
+      "filePath": "Functional Testing\\Registration Failed - Passwords Mismatch.xaml",
+      "uniqueId": "379f3cb6-bc45-4be3-95c8-2dc641f870e2",
+      "input": [],
+      "output": []
+    },
+    {
+      "filePath": "Functional Testing\\Registration Failed - Terms of Use Not Checked.xaml",
+      "uniqueId": "f560f25f-e2b4-469a-981d-ffbbcb9fa52d",
+      "input": [],
+      "output": []
+    },
+    {
+      "filePath": "Functional Testing\\Registration Failed - User Already Registered.xaml",
+      "uniqueId": "884fd1a5-0d49-4640-a5bb-a0d8aeb773fe",
+      "input": [],
+      "output": []
+    },
+    {
+      "filePath": "Regression Testing\\Registration Successfull.xaml",
+      "uniqueId": "77050215-6e33-4eb5-8e84-aab373e2f069",
+      "input": [],
+      "output": []
+    },
+    {
+      "filePath": "Regression Testing\\Registration Failed.xaml",
+      "uniqueId": "2dfad34d-7acd-41fe-9b5d-e3e80dc02bfe",
+      "input": [],
+      "output": []
+    }
+  ]
+}
