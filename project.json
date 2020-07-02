@@ -9,9 +9,10 @@
     "UiPath.UIAutomation.Activities": "[20.4.1]"
   },
   "webServices": [],
+  "entitiesStores": [],
   "schemaVersion": "4.0",
   "studioVersion": "20.4.1.0",
-  "projectVersion": "1.0.45775520",
+  "projectVersion": "1.0.7",
   "runtimeOptions": {
     "autoDispose": false,
     "isPausable": true,
@@ -31,11 +32,6 @@
       "privateWorkflows": []
     },
     "fileInfoCollection": [
-      {
-        "editingStatus": "InProgress",
-        "testCaseId": "c6426c88-9a21-4fac-8efe-d7ee73d7e700",
-        "fileName": "TestCase.xaml"
-      },
       {
         "editingStatus": "Publishable",
         "testCaseId": "2d51b975-7f81-4127-ac4f-6a30e023443d",
@@ -67,7 +63,7 @@
         "fileName": "Regression Testing\\Registration Failed.xaml"
       },
       {
-        "editingStatus": "InProgress",
+        "editingStatus": "Publishable",
         "testCaseId": "2ce240be-fa93-446a-9b1e-47157edc9cbc",
         "dataVariationFilePath": ".variations\\Registration Data_Sheet1.json",
         "fileName": "Data Driven Test Cases\\Registration.xaml"
@@ -110,6 +106,43 @@
       "filePath": "Regression Testing\\Registration Failed.xaml",
       "uniqueId": "2dfad34d-7acd-41fe-9b5d-e3e80dc02bfe",
       "input": [],
+      "output": []
+    },
+    {
+      "filePath": "Data Driven Test Cases\\Registration.xaml",
+      "uniqueId": "2ce240be-fa93-446a-9b1e-47157edc9cbc",
+      "input": [
+        {
+          "name": "Email",
+          "type": "System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089",
+          "required": false,
+          "hasDefault": false
+        },
+        {
+          "name": "Password",
+          "type": "System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089",
+          "required": false,
+          "hasDefault": false
+        },
+        {
+          "name": "Expected_Result",
+          "type": "System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089",
+          "required": false,
+          "hasDefault": false
+        },
+        {
+          "name": "Actual_Result",
+          "type": "System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089",
+          "required": false,
+          "hasDefault": false
+        },
+        {
+          "name": "TC_Number",
+          "type": "System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089",
+          "required": false,
+          "hasDefault": true
+        }
+      ],
       "output": []
     }
   ]
